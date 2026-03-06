@@ -196,7 +196,7 @@
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 1.75rem 2rem 1.75rem 2.25rem;
+  padding: 1.75rem 2rem;
   position: relative;
   transition: background 0.12s;
   margin-bottom: 1.5rem;
@@ -211,23 +211,6 @@
   background: #FAFBFF;
 }
 
-/* Left accent strip */
-.rank-card::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  width: 4px;
-}
-
-.rank-card:nth-child(1)::before { background: var(--accent); }
-.rank-card:nth-child(2)::before { background: #8B9EF0; }
-.rank-card:nth-child(3)::before { background: #A8B5F5; }
-.rank-card:nth-child(4)::before { background: var(--border-2); }
-.rank-card:nth-child(5)::before { background: var(--border-2); }
-.rank-card:nth-child(6)::before { background: var(--border-2); }
-.rank-card:nth-child(7)::before { background: var(--border-2); }
 
 /* Featured #1 */
 .rank-card--featured {
