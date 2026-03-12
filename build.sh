@@ -63,6 +63,7 @@ build_page() {
     printf '<meta name="viewport" content="width=device-width, initial-scale=1">\n'
     printf '<title>%s</title>\n' "$TITLE"
     printf '<meta name="description" content="%s">\n' "$DESC"
+    printf '<link rel="icon" href="%simages/favicon.svg" type="image/svg+xml">\n' "$BASE"
     printf '<link rel="canonical" href="%s">\n' "$CANONICAL"
     printf '<meta property="og:type" content="article">\n'
     printf '<meta property="og:title" content="%s">\n' "$TITLE"
